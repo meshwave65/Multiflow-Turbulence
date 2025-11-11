@@ -1,14 +1,62 @@
-# Turbulência como Multifluxo (Turbulence as Multiflow )
+# Turbulence as Multiflow (Turbulência como Multifluxo)
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg )](https://creativecommons.org/licenses/by-nc-sa/4.0/ )
 
-Este repositório é o centro de desenvolvimento e colaboração para a tese **"Turbulência como Multifluxo: Uma Nova Perspectiva Conceitual Aprofundada"** de Diogenes Duarte Sobral.
+**[English]** | [Português](#português)
 
-O projeto explora uma redefinição fundamental da turbulência: em vez de um estado de "caos aleatório", ela é proposta como um **Multifluxo** — uma superposição de múltiplos subfluxos laminares locais que interagem de forma não-linear.
+This repository is the development and collaboration hub for the thesis **"Turbulence as Multiflux: A Unified Framework"** by Diogenes Duarte Sobral.
 
-<!-- [Link para a Tese Completa](./thesis/pt-BR/Turbulencia_como_Multifluxo_v4.0.pdf) -->
+The project explores a fundamental redefinition of turbulence: instead of a state of "random chaos," it is proposed as a **Multiflow**—a superposition of multiple local laminar subflows that interact non-linearly.
 
 ---
+
+## Abstract
+
+Classical fluid dynamics separates laminar (ordered) flow from turbulent (chaotic) flow. The Multiflow perspective unifies these concepts under a common principle: **local order**.
+
+The apparent macroscopic disorder of turbulence emerges from the non-linear interaction between multiple subflows, each locally obeying the laws of ordered viscous flow. We formalize this view through a velocity field decomposition:
+
+$$ \vec{v}(\vec{x}, t) = \sum_{i=1}^{N} \vec{v}_i(\vec{x}, t) $$
+
+Where each $\vec{v}_i$ is a local laminar subflow. Turbulence, therefore, is not an intrinsic property but the result of the interaction between these subflows, described by the convection term in the Navier-Stokes Equation.
+
+### Practical Implications
+
+This approach offers new perspectives for:
+*   **Modeling and Simulation (LES):** Modeling large eddies as laminar subflows, allowing for a more physical and less empirical formulation.
+*   **Active Drag Control:** The goal becomes aligning the subflows ($\vec{n}_i \approx \vec{n}_j$) to reduce non-linear interaction and, consequently, drag.
+*   **Fluid Mechanics Education:** Presenting turbulence as a sum of "local orders," making the concept more intuitive.
+
+## Repository Goals
+
+1.  **Validate the Theory:** Develop simulations and analyses that corroborate (or refute) the Multiflow hypothesis.
+2.  **Develop Tools:** Create codes and models based on this perspective.
+3.  **Foster Collaboration:** Build a community of researchers, students, and engineers interested in exploring and applying this theory.
+
+## How to Contribute
+
+We are open to contributions. Please read our [contribution guide](./docs/contributing.md) for more details.
+
+## Project Structure
+
+*   `/thesis`: Contains the published versions of the thesis.
+*   `/src`: Source code for simulations, models, and analysis scripts.
+*   `/data`: Simulation data (ideally using Git LFS).
+*   `/media`: Images, graphics, and videos.
+*   `/docs`: Project documentation.
+
+## License
+
+This work is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+
+---
+---
+
+## Português
+
+Este repositório é o centro de desenvolvimento e colaboração para a tese **"Turbulência como Multifluxo: Uma Nova Perspectiva Conceitual"** de Diogenes Duarte Sobral.
+
+O projeto explora uma redefinição fundamental da turbulência: em vez de um estado de "caos aleatório", ela é proposta como um **Multifluxo** — uma superposição de múltiplos subfluxos laminares locais que interagem de forma não-linear.
 
 ## Resumo da Teoria
 
@@ -48,3 +96,4 @@ Estamos abertos a contribuições. Por favor, leia nosso [guia de contribuição
 ## Licença
 
 Este trabalho está licenciado sob a **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)**.
+
