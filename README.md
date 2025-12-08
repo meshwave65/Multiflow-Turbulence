@@ -4,6 +4,18 @@
 
 **[English]** | [Português](#português)
 
+**Primeira prova numérica pública — Dezembro 2025**  
+**N_eff = 12** subfluxos efetivos em turbulência sintética realista (HIT 64³, espectro Kolmogorov exato)
+
+![Decomposição instantânea](src/decomposition/results/multiflux_decomposicao_sintetica.png?raw=true)
+
+→ Código + resultado 100% reprodutível:  
+[src/decomposition/synthetic_HIT_decomposition.py](src/decomposition/synthetic_HIT_decomposition.py)
+
+Rode em menos de 2 minutos com `python synthetic_HIT_decomposition.py`
+
+---
+
 This repository is the development and collaboration hub for the thesis **"Turbulence as Multiflux: A Unified Framework"** by Diogenes Duarte Sobral.
 
 The project explores a fundamental redefinition of turbulence: instead of a state of "random chaos," it is proposed as a **Multiflow**—a superposition of multiple local laminar subflows that interact non-linearly.
