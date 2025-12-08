@@ -58,9 +58,14 @@ We are open to contributions. Please read our [contribution guide](./docs/contri
 *   `/docs`: Project documentation.
 
 ## License
+This work is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)** license.
 
-This work is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**.
+All content in this repository—including code, figures, synthetic data, documentation, and other materials—is licensed under **CC-BY-NC-SA 4.0**.
 
+This means you can use, modify, and redistribute the material, **provided that**:
+- you give appropriate attribution,
+- you do not use it for commercial purposes,
+- you share any derivatives under the **same license**.
 ---
 ---
 
@@ -108,4 +113,11 @@ Estamos abertos a contribuições. Por favor, leia nosso [guia de contribuição
 ## Licença
 
 Este trabalho está licenciado sob a **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)**.
+Todo o conteúdo deste repositório — incluindo código, figuras, dados sintéticos, documentação e demais materiais — está licenciado sob **CC-BY-NC-SA 4.0**.
+
+Isso significa que você pode usar, modificar e redistribuir o material, **desde que**:
+- forneça atribuição apropriada,
+- **não** utilize para fins comerciais,
+- compartilhe quaisquer derivados sob a **mesma licença**.
+
 
