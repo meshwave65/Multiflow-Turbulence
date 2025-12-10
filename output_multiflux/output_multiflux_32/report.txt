@@ -1,0 +1,11 @@
+Multiflux HIT synthetic run report
+Grid: 64^3; L=6.283185307179586; seed=42; k_clusters=12
+Mean kinetic energy density: 7.850622e-06
+N_eff (cutoff 0.50%): 12
+Top 5 cluster volumes (%): 14.87, 13.24, 11.76, 11.64, 11.51
+N_eff vs cutoffs:
+  cutoff 0.10% -> N_eff = 12
+  cutoff 0.20% -> N_eff = 12
+  cutoff 0.50% -> N_eff = 12
+  cutoff 1.00% -> N_eff = 12
+  cutoff 2.00% -> N_eff = 11

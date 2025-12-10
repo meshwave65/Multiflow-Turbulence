@@ -1,0 +1,12 @@
+# Multiflux Instantaneous Decomposition — Synthetic HIT
+
+**N_eff = 12 confirmed across four grid resolutions (64³ → 256³)**
+
+## One-click reproduction (any resolution)
+
+```bash
+# Edit only these two lines in synthetic_HIT_decomposition.py
+N = 256                  # ← try 64, 128, 192, 256
+SAVE_DIR = "output_multiflux_256"   # ← unique folder name
+
+python synthetic_HIT_decomposition.py

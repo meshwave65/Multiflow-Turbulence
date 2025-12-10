@@ -23,3 +23,6 @@ dist/
 .vscode/
 .idea/
 *.swp
+*.npz
+output_multiflux/*/*.npz
+output_multiflux/*/velocity_*.npz

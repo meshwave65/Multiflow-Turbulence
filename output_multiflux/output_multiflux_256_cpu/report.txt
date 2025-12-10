@@ -1,0 +1,5 @@
+Multiflux HIT 256 run report
+Grid: 256^3; L=6.283185307179586; seed=42; k_clusters=12
+Mean kinetic energy density: 7.298977e+17
+N_eff (cutoff 0.50%): 12
+Top 5 cluster volumes (%): 16.09, 13.87, 13.08, 9.46, 8.95
