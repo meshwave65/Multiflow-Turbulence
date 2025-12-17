@@ -1,0 +1,7 @@
+Multiflux Theory v2.0 — Variational Validation
+Resolution: 256³
+Effective number of subfluxes: N_eff = 12
+
+Result:
+Dominant subfluxes minimize dissipation and maximize effective action.
+Numerical evidence supports Eulerian–Lagrangian integration.

@@ -10,3 +10,6 @@ N = 256                  # ← try 64, 128, 192, 256
 SAVE_DIR = "output_multiflux_256"   # ← unique folder name
 
 python synthetic_HIT_decomposition.py
+
+Zenodo DOI: https://doi.org/10.5281/zenodo.17887596
+
