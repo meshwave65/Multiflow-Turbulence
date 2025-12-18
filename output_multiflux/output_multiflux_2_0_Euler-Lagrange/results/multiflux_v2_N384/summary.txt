@@ -1,7 +1,0 @@
-Multiflux Theory v2.0 — Variational Validation
-Resolution: N = 384³
-Effective number of subfluxes: N_eff = 1
-
-Key Result:
-Dominant subfluxes maximize effective action
-by minimizing relative dissipation.
